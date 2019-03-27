@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const express = require('express');
 const server = express();
 
-// middleware
+// Middleware
 server.use(express.json());
 server.use(compression());
 server.use(helmet());
@@ -15,7 +15,7 @@ server.use((req, res, next) => {
   next();
 });
 
-// routes
+// Routes
 server.use('/api/cohorts', require('../routes/cohorts'));
 
 module.exports = server;
