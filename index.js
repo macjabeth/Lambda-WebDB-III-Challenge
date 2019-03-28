@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const debug = require('debug')('server:init');
 const config = require('config');
 const server = require('./api/server');

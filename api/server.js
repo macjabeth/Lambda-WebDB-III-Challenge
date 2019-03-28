@@ -17,5 +17,6 @@ server.use((req, res, next) => {
 
 // Routes
 server.use('/api/cohorts', require('../routes/cohorts'));
+server.use('/api/students', require('../routes/students'));
 
 module.exports = server;
