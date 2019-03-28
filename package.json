@@ -1,0 +1,35 @@
+{
+  "name": "Lambda-WebDB-III-Challenge",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macjabeth/Lambda-WebDB-III-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macjabeth/Lambda-WebDB-III-Challenge/issues"
+  },
+  "homepage": "https://github.com/macjabeth/Lambda-WebDB-III-Challenge#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.0.1",
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "joi": "^14.3.1",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
